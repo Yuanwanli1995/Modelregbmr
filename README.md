@@ -30,27 +30,36 @@ an n by 1 response vector.
 an n by 1 predictor vector.
 
 **method**	
-method="bmr" is for B-splines Mode Regression; method="lmr" is for Local polynomials Mode Regression;  For non-measurement error models, method="bmr" is recommended.
+method="bmr" is for B-splines hyperparameter k in Mode Regression; method="lmr" is for Local polynomials Mode Regression;  For non-measurement error models, method="bmr" is recommended.
 
 **C**
 Percentage of abs((max(y)-min(y))),the constant hyperparameter of CVp
 
+**A**	
+bandwidth vector for B-splines hyperparameter k in Mode Regression ; default is NULL, and k is chosen automatically.  It is recommended to carefully specify a fine grid for k.
+
+**H**
+bandwidth vector for h in  B-splines modal regression; default is NULL, and h is chosen automatically.  It is recommended to carefully specify a fine grid for h.
+
 **H1**	
-bandwidth vector for h1; default is NULL, and h1 is chosen automatically.  It is recommended to carefully specify a fine grid for h1.
+bandwidth vector for h1 in LPM; default is NULL, and h1 is chosen automatically.  It is recommended to carefully specify a fine grid for h1.
 
 **H2**
-bandwidth vector for h2; default is NULL, and h2 is chosen automatically.  It is recommended to carefully specify a fine grid for h2.
+bandwidth vector for h2  in LPM; default is NULL, and h2 is chosen automatically.  It is recommended to carefully specify a fine grid for h2.
 
 **n**	
 length of vector x or y
 
 **e**
+
 e="gauss","mixgauss","cauchy", "gamma","beta"  is for diffrent noise; 
 
 **f**
+
 f="quodratic","cubic","exp", "log","sin","mexicohat","steps" is for diffrent simulation function; 
 
 ## Author(s)
+
 Lianqiang Yang, Wanli Yuan, Shijie Wang
 
 
