@@ -26,28 +26,28 @@ lines(x,real,col="red",lwd=0,lty=3)
 **x**
 an n by 1 response vector.
 
-y
+**y**
 an n by 1 predictor vector.
 
-method	
+**method**	
 method="bmr" is for B-splines Mode Regression; method="lmr" is for Local polynomials Mode Regression;  For non-measurement error models, method="bmr" is recommended.
 
-C
+**C**
 Percentage of abs((max(y)-min(y))),the constant hyperparameter of CVp
 
-H1	
+**H1**	
 bandwidth vector for h1; default is NULL, and h1 is chosen automatically.  It is recommended to carefully specify a fine grid for h1.
 
-H2
+**H2**
 bandwidth vector for h2; default is NULL, and h2 is chosen automatically.  It is recommended to carefully specify a fine grid for h2.
 
-n	
+**n**	
 length of vector x or y
 
-e
+**e**
 e="gauss","mixgauss","cauchy", "gamma","beta"  is for diffrent noise; 
 
-f
+**f**
 f="quodratic","cubic","exp", "log","sin","mexicohat","steps" is for diffrent simulation function; 
 
 ## Author(s)
