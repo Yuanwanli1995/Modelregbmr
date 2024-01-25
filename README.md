@@ -23,7 +23,7 @@ lines(x,real,col="red",lwd=0,lty=3)
 
 
 ##  Arguments
-x	
+**x	**
 an n by 1 response vector.
 
 y
@@ -48,7 +48,7 @@ e
 e="gauss","mixgauss","cauchy", "gamma","beta"  is for diffrent noise; 
 
 f
-e="quodratic","cubic","exp", "log","sin","mexicohat","steps" is for diffrent simulation function; 
+f="quodratic","cubic","exp", "log","sin","mexicohat","steps" is for diffrent simulation function; 
 
 ## Author(s)
 Lianqiang Yang, Wanli Yuan, Shijie Wang
