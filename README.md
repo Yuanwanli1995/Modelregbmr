@@ -50,13 +50,9 @@ bandwidth vector for h2  in LPM; default is NULL, and h2 is chosen automatically
 **n**	
 length of vector x or y
 
-**e**
+**e** ="gauss","mixgauss","cauchy", "gamma","beta"  is for diffrent noise; 
 
-e="gauss","mixgauss","cauchy", "gamma","beta"  is for diffrent noise; 
-
-**f**
-
-f="quodratic","cubic","exp", "log","sin","mexicohat","steps" is for diffrent simulation function; 
+**f** ="quodratic","cubic","exp", "log","sin","mexicohat","steps" is for diffrent simulation function; 
 
 ## Author(s)
 
