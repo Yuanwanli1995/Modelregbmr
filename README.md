@@ -21,7 +21,9 @@ lines(x,fit,col="black",lwd=1,lty=3)
 
 lines(x,real,col="red",lwd=0,lty=3)
 
+legend("topright", legend = c("bmr fit", "real mode"), col = c("black", "red"), lty = 3, lwd = 1)
 
+https://github.com/Yuanwanli1995/Modelregbmr/blob/main/R/Rplot.png
 ##  Arguments
 **x**
 an n by 1 response vector.
