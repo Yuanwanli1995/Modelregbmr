@@ -3,7 +3,7 @@ A nonparametric model based on B-splines is given for modal regression.
 
 
 ## Documentation
-Cross-Validation prediction  Bandwidth Selector for B-splines Mode Regression
+B-splines Mode Regression and Cross-Validation prediction  Bandwidth Selector for B-splines Mode Regression.
 
 ## Usage
 #### Eeample
