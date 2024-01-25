@@ -23,7 +23,7 @@ lines(x,real,col="red",lwd=0,lty=3)
 
 
 ##  Arguments
-**x	**
+**x**
 an n by 1 response vector.
 
 y
