@@ -7,7 +7,7 @@ B-splines Mode Regression and Cross-Validation prediction  Bandwidth Selector fo
 
 ## Usage
 #### Eeample
-data<-generatedata(n=400,e="mixgauss", f="log"); x<-data$x ; y<-data$y ; real <-data$real
+data<-generatedata(n=400,e="mixgauss", f="sin"); x<-data$x ; y<-data$y ; real <-data$real
 
 best_spara<-bandwidthselecte(x,y,"bmr","p");sp_1<-best_spara$sp_1;sp_2<-best_spara$sp_2
 
