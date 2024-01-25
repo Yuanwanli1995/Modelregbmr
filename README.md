@@ -2,11 +2,11 @@
 A nonparametric model based on B-splines is given for modal regression.
 
 
-Documentation
+## Documentation
 Cross-Validation prediction  Bandwidth Selector for B-splines Mode Regression
 
-Usage
-#Eeample
+## Usage
+#### Eeample
 data<-generatedata(400,"mixgauss", "log"); x<-data$x ; y<-data$y ; real <-data$real
 best_spara<-bandwidthselecte(x,y,"bmr","p");sp_1<-best_spara$sp_1;sp_2<-best_spara$sp_2
 fit<-regression(x,y,method="bmr",sp_1,sp_2)
@@ -15,7 +15,7 @@ plot(x,y, pch=1,cex.axis=1.5,cex.lab=1.5)
 lines(x,fit,col="black",lwd=1,lty=3)
 lines(x,real,col="red",lwd=0,lty=3)
 
-Arguments
+##  Arguments
 x	
 an n by 1 response vector.
 
